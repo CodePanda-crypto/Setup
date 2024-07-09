@@ -1,10 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="./main.js" defer></script>
-  </head>
-  <body></body>
-</html>
+<head><script defer src="bundle.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module not found: Error: Can't resolve 'C:\Users\Raza Awan\Documents\Github\Setup\src\index.html' in 'C:\Users\Raza Awan\Documents\Github\Setup'
+  ModuleNotFoundError: Module not found: Error: Can't resolve 'C:\Users\Raza Awan\Documents\Github\Setup\src\index.html' in 'C:\Users\Raza Awan\Documents\Github\Setup'      at C:\Users\Raza Awan\Documents\Github\Setup\node_modules\webpack\lib\Compilation.js:2100:28
+      at C:\Users\Raza Awan\Documents\Github\Setup\node_modules\webpack\lib\NormalModuleFactory.js:904:13
+      at eval (eval at create (C:\Users\Raza Awan\Documents\Github\Setup\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Users\Raza Awan\Documents\Github\Setup\node_modules\webpack\lib\NormalModuleFactory.js:341:22
+      at eval (eval at create (C:\Users\Raza Awan\Documents\Github\Setup\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at C:\Users\Raza Awan\Documents\Github\Setup\node_modules\webpack\lib\NormalModuleFactory.js:518:22
+      at C:\Users\Raza Awan\Documents\Github\Setup\node_modules\webpack\lib\NormalModuleFactory.js:151:11
+      at C:\Users\Raza Awan\Documents\Github\Setup\node_modules\webpack\lib\NormalModuleFactory.js:776:25
+      at C:\Users\Raza Awan\Documents\Github\Setup\node_modules\webpack\lib\NormalModuleFactory.js:988:8
+      at C:\Users\Raza Awan\Documents\Github\Setup\node_modules\webpack\lib\NormalModuleFactory.js:1118:5
+  
+  - Compilation.js:2100 
+    [Setup]/[webpack]/lib/Compilation.js:2100:28
+  
+  - NormalModuleFactory.js:904 
+    [Setup]/[webpack]/lib/NormalModuleFactory.js:904:13
+  
+  
+  - NormalModuleFactory.js:341 
+    [Setup]/[webpack]/lib/NormalModuleFactory.js:341:22
+  
+  
+  - NormalModuleFactory.js:518 
+    [Setup]/[webpack]/lib/NormalModuleFactory.js:518:22
+  
+  - NormalModuleFactory.js:151 
+    [Setup]/[webpack]/lib/NormalModuleFactory.js:151:11
+  
+  - NormalModuleFactory.js:776 
+    [Setup]/[webpack]/lib/NormalModuleFactory.js:776:25
+  
+  - NormalModuleFactory.js:988 
+    [Setup]/[webpack]/lib/NormalModuleFactory.js:988:8
+  
+  - NormalModuleFactory.js:1118 
+    [Setup]/[webpack]/lib/NormalModuleFactory.js:1118:5
+  
+  - child-compiler.js:174 
+    [Setup]/[html-webpack-plugin]/lib/child-compiler.js:174:18
+  
+  - Compiler.js:625 finalCallback
+    [Setup]/[webpack]/lib/Compiler.js:625:5
+  
+  - Compiler.js:660 
+    [Setup]/[webpack]/lib/Compiler.js:660:11
+  
+  - Compiler.js:1349 
+    [Setup]/[webpack]/lib/Compiler.js:1349:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [Setup]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1345 
+    [Setup]/[webpack]/lib/Compiler.js:1345:33
+  
+  - Compilation.js:2906 finalCallback
+    [Setup]/[webpack]/lib/Compilation.js:2906:11
+  
+  - Compilation.js:3215 
+    [Setup]/[webpack]/lib/Compilation.js:3215:11
+  
+  
+</pre>
